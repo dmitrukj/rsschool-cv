@@ -1,0 +1,36 @@
+.myCv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.name {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin-right: 30px;
+}
+h2 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.name,
+.contact,
+.about,
+.skills,
+.code__examples,
+.Education,
+.languages {
+  width: 1000px;
+}
+pre {
+  border: 2px solid gray;
+  background-color: darkgray;
+  width: 300px;
+}
